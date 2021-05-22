@@ -1,1 +1,115 @@
-Willkommen auf meiner Webseite!
+<!DOCTYPE html>
+<html lang="en" class="fullSize overFlowHidden">
+  <head>
+    <title>SpaceX-Trivia - Home</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="short icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body class="fullSize spacingCorrection">
+    <header id="header" class="row">
+      <h1 id="headerTitle">SpaceX-Trivia</h1>
+      <span>Andreas Steirer, BSD20</span>
+    </header>
+
+    <div class="row fullHeight">
+      <nav class="column navBar">
+        <a class="navigationItemLink navigationItemActive" href=".">
+          <div class="navigationItem">Home</div>
+        </a>
+        <a class="navigationItemLink" href="falcon9.html">
+          <div class="navigationItem">Falcon</div>
+        </a>
+        <a class="navigationItemLink" href="starship.html">
+          <div class="navigationItem">Starship</div>
+        </a>
+      </nav>
+
+      <main class="row mainContainer flexFull">
+        <div class="flexFull">
+          <article class="column articleSpacing">
+            <h2 id="mainTitle">Home</h2>
+            <div class="articleEntry">
+              <h3>Welcome and get excited!</h3>
+              <p>
+                We are your knowledge-base platform in terms of
+                <b>
+                  <a href="https://www.spacex.com" target="_blank">SpaceX</a>
+                </b>
+                and their current rocket fleet!
+              </p>
+            </div>
+
+            <div class="articleEntry">
+              <h3>What is SpaceX?</h3>
+              <p>
+                SpaceX stands for <b>Space</b> <b>Ex</b>ploration Technologies
+                Corporation and was the first privately owned company to return
+                a spacecraft from (low) earth orbit back to the surface of earth
+                safely and therefore successfully. It was also the first company
+                to carry out a manned mission to the ISS with following
+                splashdown in the Atlantic ocean.
+              </p>
+            </div>
+
+            <div class="articleEntry">
+              <h3>What are their main goals?</h3>
+              <p>
+                Its primary goal is to evolve human spaceflight to a whole new
+                level, bring humanity forward and making a difference when it
+                comes to affordability and sustainability of spaceflight in
+                general. Cost-effectiveness and reusability is therefore a high
+                credo at SpaceX. <br />
+                These factors are the main differentiating points compared to
+                other private spaceflight companies.
+              </p>
+            </div>
+
+            <h3>Who are the competitors?</h3>
+            <ul>
+              <li class="bottomSpacing8Pixels">
+                <b>Completely private</b>
+                <ul>
+                  <li>RocketLab</li>
+                  <li>Boeing</li>
+                  <li>Blue Origin</li>
+                  <li>etc.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Governmental shares</b>
+                <ul>
+                  <li>Northrop Grumman</li>
+                  <li>Lockheed Martin</li>
+                  <li>United Launch Alliance</li>
+                  <li>etc.</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="column flexFull indexImageContainer">
+          <a
+            target="_blank"
+            class="column flexFull articleImageSpacing"
+            href="https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2"
+          >
+            <img
+              class="articleImage"
+              src="crew_dragon_falcon9.jpg"
+              alt="SpaceX Falcon 9 rocket with a Drew Dragon capsule mounted on top."
+            />
+          </a>
+          <span class="sourceDescriptor">
+            Falcon 9 with a Drew Dragon capsule mounted on top (<b>Source</b>:
+            SpaceX).
+          </span>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

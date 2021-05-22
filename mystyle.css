@@ -1,0 +1,194 @@
+* {
+  font-family: Georgia, serif;
+}
+
+html {
+  background: #e7f1fc;
+}
+
+a:hover {
+  color: #3f93e0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Remove the standard spacing / margin */
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: Verdana, sans-serif;
+
+  /*
+   * Could be added here,
+   * but headings are (usually) styled default like that,
+   * because of that we omit it here.
+   * font-weight: bold;
+   */
+}
+
+p,
+a,
+div,
+body,
+ul {
+  /* Remove the standard spacing / margin */
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+nav {
+  background-color: #1a67a3;
+}
+
+li {
+  font-size: 20px;
+}
+table {
+  margin-top: 10px;
+  text-align: left;
+  box-shadow: 0 0 5px 0 black;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+  background-color: white;
+}
+
+th {
+  background-color: lightblue;
+}
+
+th,
+tr,
+td {
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+
+iframe {
+  border: 0;
+}
+
+.fullSize {
+  width: 100%;
+  height: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+}
+.navigationItemLink {
+  text-decoration: none;
+}
+
+.navigationItem {
+  color: white;
+  padding: 12px 0 12px 12px;
+}
+
+.navigationItem:hover {
+  background-color: #005288;
+  border-left: 4px solid #a7a9ac;
+}
+
+.navigationItemActive {
+  background-color: #023f5f;
+  border-left: 4px solid #6dff2e;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  overflow-y: auto;
+  height: calc(100vh - 52px);
+}
+
+.flexFull {
+  flex: 1;
+}
+
+.articleSpacing {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.navBar {
+  min-width: 200px;
+}
+
+.articleImage {
+  height: auto;
+  padding: 15px;
+  max-width: 80%;
+  max-height: 80vh;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.articleImageSpacing {
+  align-self: center;
+  align-items: center;
+}
+
+.indexImageContainer {
+  padding-left: 50px;
+  align-self: center;
+}
+
+.overFlowHidden {
+  overflow: hidden;
+}
+
+.articleEntry {
+  padding-bottom: 30px;
+}
+
+.sourceDescriptor {
+  align-self: center;
+}
+
+.bottomSpacing8Pixels {
+  padding-bottom: 8px;
+}
+
+.leftHeader {
+  width: 250px;
+}
+
+#headerTitle {
+  flex: 1;
+  padding: 0;
+  font-size: 26px;
+}
+
+#mainTitle {
+  padding-bottom: 36px;
+  color: #07325e;
+}
+
+#header {
+  min-height: 52px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #a7a9ac;
+}
